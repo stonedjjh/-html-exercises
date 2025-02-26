@@ -1,0 +1,54 @@
+/* Estilo para el lienzo */
+.canvas {
+    width: 500px; /* Ancho del lienzo */
+    height: 600px; /* Alto del lienzo */
+    background-color: #4d0f00; /* Color de fondo del lienzo */
+    overflow: hidden; /* Oculta el desbordamiento */
+    filter: blur(2px); /* Aplica un efecto de desenfoque */
+}
+  
+/* Estilo para el marco */
+.frame {
+    border: 50px solid black; /* Borde del marco */
+    width: 500px; /* Ancho del marco */
+    padding: 50px; /* Relleno interno del marco */
+    margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
+}
+  
+/* Estilo para el primer elemento */
+.one {
+    width: 425px; /* Ancho del elemento */
+    height: 150px; /* Alto del elemento */
+    background-color: #efb762; /* Color de fondo del elemento */
+    margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
+    box-shadow: 0 0 3px 3px #efb762; /* Sombra del elemento */
+    border-radius: 9px; /* Bordes redondeados */
+    transform: rotate(-0.6deg); /* Rotación del elemento */
+}
+  
+/* Estilo para el segundo elemento */
+.two {
+    width: 475px; /* Ancho del elemento */
+    height: 200px; /* Alto del elemento */
+    background-color: #8f0401; /* Color de fondo del elemento */
+    margin: 0 auto 20px; /* Margen superior 0, centrado horizontalmente, margen inferior de 20px */
+    box-shadow: 0 0 3px 3px #8f0401; /* Sombra del elemento */
+    border-radius: 8px 10px; /* Bordes redondeados */
+    transform: rotate(0.4deg); /* Rotación del elemento */
+}
+  
+/* Estilo compartido para los elementos uno y dos */
+.one, .two {
+    filter: blur(1px); /* Aplica un efecto de desenfoque */
+}
+  
+/* Estilo para el tercer elemento */
+.three {
+    width: 91%; /* Ancho del elemento en porcentaje */
+    height: 28%; /* Alto del elemento en porcentaje */
+    background-color: #b20403; /* Color de fondo del elemento */
+    margin: auto; /* Centrado horizontal y vertical */
+    filter: blur(2px); /* Aplica un efecto de desenfoque */
+    box-shadow: 0 0 5px 5px #b20403; /* Sombra del elemento */
+    border-radius: 30px 25px 60px 12px; /* Bordes redondeados */
+}

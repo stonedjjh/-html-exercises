@@ -1,0 +1,61 @@
+/*
+ * ARCHIVO: /c:/php/freecodecamp/Diseño Web Responsivo/galeria de fotos/styles.css
+ *
+ * Este archivo CSS contiene estilos para la galería de fotos en el proyecto de Diseño Web Responsivo.
+ * Incluye estilos globales, configuraciones de diseño y estilos específicos para varios elementos
+ * dentro de la galería de fotos para asegurar un diseño visualmente atractivo y responsivo.
+ */
+/*
+ * This CSS file contains styles for the photo gallery in the Responsive Web Design project.
+ * It includes global styles, layout configurations, and specific styles for various elements
+ * within the photo gallery to ensure a visually appealing and responsive design.
+ */
+/* Aplica el modelo de caja de borde a todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total del elemento */
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    font-family: sans-serif; /* Establece la fuente a sans-serif */
+    background: #f5f6f7; /* Color de fondo del cuerpo */
+}
+
+/* Estilo para el encabezado */
+.header {
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    padding: 32px; /* Relleno interno del encabezado */
+    background-color: #0a0a23; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    border-bottom: 4px solid #fdb347; /* Borde inferior del encabezado */
+}
+
+/* Estilo para la galería */
+.gallery {
+    display: flex; /* Utiliza el modelo de caja flexible */
+    flex-direction: row; /* Dirección de los elementos en fila */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 16px; /* Espacio entre los elementos */
+    max-width: 1400px; /* Ancho máximo de la galería */
+    margin: 0 auto; /* Centra la galería horizontalmente */
+    padding: 20px 10px; /* Relleno interno de la galería */
+}
+
+/* Estilo para las imágenes dentro de la galería */
+.gallery img {
+    width: 100%; /* Ancho completo de la imagen */
+    max-width: 350px; /* Ancho máximo de la imagen */
+    height: 300px; /* Alto fijo de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    border-radius: 10px; /* Bordes redondeados de la imagen */
+}
+
+/* Pseudo-elemento después de la galería */
+.gallery::after {
+    content: ""; /* Contenido vacío */
+    width: 350px; /* Ancho del pseudo-elemento */
+}

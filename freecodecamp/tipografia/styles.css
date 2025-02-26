@@ -1,0 +1,122 @@
+/* Aplica el modelo de caja de borde a todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total del elemento */
+}
+  
+/* Estilo para el elemento html */
+html {
+    font-size: 16px; /* Tamaño de fuente base */
+}
+  
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Open Sans', sans-serif; /* Establece la fuente a 'Open Sans' */
+}
+  
+/* Estilo para las etiquetas */
+.label {
+    border: 2px solid black; /* Borde de 2px sólido negro */
+    width: 270px; /* Ancho de la etiqueta */
+    margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
+    padding: 0 7px; /* Relleno interno de 0px arriba y abajo, 7px a los lados */
+}
+  
+/* Estilo para el encabezado h1 dentro del header */
+header h1 {
+    text-align: center; /* Centra el texto */
+    margin: -4px 0; /* Margen superior e inferior de -4px */
+    letter-spacing: 0.15px; /* Espaciado entre letras */
+}
+  
+/* Estilo para los párrafos */
+p {
+    margin: 0; /* Elimina el margen predeterminado */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+  
+/* Estilo para el divisor */
+.divider {
+    border-bottom: 1px solid #888989; /* Borde inferior de 1px sólido gris */
+    margin: 2px 0; /* Margen superior e inferior de 2px */
+}
+  
+/* Estilo para el texto en negrita */
+.bold {
+    font-weight: 800; /* Peso de fuente muy negrita */
+}
+  
+/* Estilo para los elementos grandes */
+.large {
+    height: 10px; /* Altura de 10px */
+}
+  
+/* Estilo compartido para los elementos grandes y medianos */
+.large, .medium {
+    background-color: black; /* Color de fondo negro */
+    border: 0; /* Sin borde */
+}
+  
+/* Estilo para los elementos medianos */
+.medium {
+    height: 5px; /* Altura de 5px */
+}
+  
+/* Estilo para el texto pequeño */
+.small-text {
+    font-size: 0.85rem; /* Tamaño de fuente pequeño */
+}
+  
+/* Estilo para la información de calorías */
+.calories-info {
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: flex-end; /* Alinea los elementos al final */
+}
+  
+/* Estilo para los encabezados h2 dentro de la información de calorías */
+.calories-info h2 {
+    margin: 0; /* Elimina el margen predeterminado */
+}
+  
+/* Estilo para los párrafos dentro del contenedor izquierdo */
+.left-container p {
+    margin: -5px -2px; /* Margen superior e inferior de -5px, margen izquierdo y derecho de -2px */
+    font-size: 2em; /* Tamaño de fuente grande */
+    font-weight: 700; /* Peso de fuente negrita */
+}
+  
+/* Estilo para los spans dentro de la información de calorías */
+.calories-info span {
+    margin: -7px -2px; /* Margen superior e inferior de -7px, margen izquierdo y derecho de -2px */
+    font-size: 2.4em; /* Tamaño de fuente muy grande */
+    font-weight: 700; /* Peso de fuente negrita */
+}
+  
+/* Estilo para los elementos con clase right */
+.right {
+    justify-content: flex-end; /* Alinea los elementos al final */
+}
+  
+/* Estilo para la indentación */
+.indent {
+    margin-left: 1em; /* Margen izquierdo de 1em */
+}
+  
+/* Estilo para la doble indentación */
+.double-indent {
+    margin-left: 2em; /* Margen izquierdo de 2em */
+}
+  
+/* Estilo para los párrafos dentro de la clase daily-value que no tienen la clase no-divider */
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989; /* Borde inferior de 1px sólido gris */
+}
+  
+/* Estilo para las notas */
+.note {
+    font-size: 0.6rem; /* Tamaño de fuente muy pequeño */
+    margin: 5px 0; /* Margen superior e inferior de 5px */
+    padding: 0 8px; /* Relleno interno de 0px arriba y abajo, 8px a los lados */
+    text-indent: -8px; /* Sangría negativa de 8px */
+}

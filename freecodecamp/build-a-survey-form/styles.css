@@ -1,0 +1,113 @@
+body{   
+    margin: 0 auto;
+    max-width: 70%;
+  }
+  
+fieldset{    
+   color: #112A46;
+}
+
+#title{
+    font-family: Arial;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  p{
+    font-family: Tahoma;
+    font-size: 1rem;
+    text-align: justify;  
+  }
+  
+  h1{
+    font-family: Arial;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input[type="text"],  textarea, input[type="email"]{
+   display: block; 
+   width: 98%;
+   margin-bottom: 1rem;   
+   height: 1.2rem;
+  }
+  
+  input[type="text"]:focus,  textarea:focus, input[type="email"]:focus{
+    background-color: #112A46;
+    color: white;
+  }
+
+  .dropdown{
+    display: block;
+    width: 20%;
+    margin-bottom: 1rem;
+  }
+  
+  fieldset{
+    margin-bottom: 1rem;
+  }
+  
+  
+  input[type="radio"], input[type="checkbox"]{
+    width: 5%;
+    margin: 0;    
+   
+  }
+
+  .body-survey{
+    background-color:lightgray; 
+    border: solid 2px  #112A46;
+    border-radius: 25px;
+  }
+
+  .header-survey{
+    background-color: #112A46;
+    color: white;
+    border-radius: 25px 25px 0 0;
+    height: 50px;
+  }
+
+  .header-survey p{
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .short-text{
+    display: inline-block;
+    width: 42%;
+  }
+
+
+  fieldset > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  fieldset > div > #submit{    
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #112A46;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  @media (min-width: 1000px) {
+    body {
+      margin: 0 auto;
+      max-width: 50%;
+    }
+  }
+  @media (max-width: 600px) {
+    body {
+      margin: 0 auto;
+      max-width: 80%;
+    }
+  }
