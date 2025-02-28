@@ -114,14 +114,14 @@ main{
 }
 
 .profile{
-    width:250px;        
+    width:320px;        
     padding: 24px 12px;    
     row-gap: 24px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-self: center;
-    height: 382px;
+    height: 550px;
 }
 
 .profile-header{
