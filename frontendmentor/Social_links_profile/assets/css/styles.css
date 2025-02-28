@@ -1,0 +1,143 @@
+:root{
+    --color-green: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);    
+    --color-grey-700: hsl(0, 0%, 20%);
+    --color-grey-800: hsl(0, 0%, 12%);
+    --color-grey-900: hsl(0, 0%, 8%);    
+    font-size: 14px;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+.text-small{
+    font-size: 10px;
+}
+
+.text-medium{
+    font-size: 18px;
+}
+
+.center{
+    text-align: center;
+}
+
+.green{
+    color:var(--color-green);
+}
+
+.btn:hover{
+    background-color: var(--color-green);
+    color: var(--color-grey-900);
+    cursor:pointer;
+}
+
+.text-weight-400{
+    font-weight: 400;
+}
+
+.text-weight-500{
+    font-weight: 500;
+}
+
+.text-weight-700{
+    font-weight: 700;
+}
+
+.white{
+    color:var(--color-white);
+}
+
+.grey-700{
+    color:var(--color-grey-700);
+}
+
+.grey-800{
+    color:var(--color-grey-800);
+}
+
+.grey-900{
+    color:var(--color-grey-900);
+}
+
+.bg-green{
+    background-color:var(--color-green);
+}
+
+.bg-grey-700{
+    background-color:var(--color-grey-700);
+}
+
+.bg-grey-800{
+    background-color:var(--color-grey-800);
+}
+
+.bg-grey-900{
+    background-color:var(--color-grey-900);
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+body{
+    font-family: Inter;    
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+}
+
+main{
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.btn{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 25px;    
+}
+
+.profile{
+    width:250px;        
+    padding: 24px 12px;    
+    row-gap: 24px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    height: 382px;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+}
+
+
+nav{
+    display:flex;
+    flex-direction: column;
+    row-gap:10px;
+}
+
+footer{        
+    height: 2%;
+}
