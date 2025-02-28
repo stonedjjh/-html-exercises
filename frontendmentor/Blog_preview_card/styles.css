@@ -116,6 +116,8 @@ main{
     align-self: center;
 }
 
-.card__content p {
-    margin-bottom: 12px;
+.card__content{
+    display:flex;
+    flex-direction: column;
+    row-gap: 12px;;
 }
