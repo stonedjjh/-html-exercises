@@ -85,8 +85,8 @@ html{
 
 .avatar{
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 }
 
 
@@ -110,7 +110,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;    
-    height: 25px;    
+    height: 30px;    
 }
 
 .profile{
@@ -121,7 +121,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-self: center;
-    height: 550px;
+    height:430px;
 }
 
 .profile-header{
